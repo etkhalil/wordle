@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Wordle game inspired by NYtimes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![Wordle screenshot](/src/assets/screenshot.jpg)
 
 ## Available Scripts
 
