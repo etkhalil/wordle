@@ -8,10 +8,13 @@
     box-shadow: 0 0 25px rgba(255, 255, 255, .35);
     color: white;
     z-index: 999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal.open {
-    display: inline-block;
+    display: flex;
 }
 
 .modal.open::after {
