@@ -7,7 +7,7 @@ function Modal ({handleStart, isOpen}) {
     classes += isOpen ? " open" : ""
 
     return (<div className={classes}>
-        <h2>Congrats on scoring the game!</h2>
+        <h2>Congrats you Won!</h2>
         <Button handleClick={() => {handleStart()}} text="Start Over" />
     </div>)
 }
