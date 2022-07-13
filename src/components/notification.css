@@ -1,0 +1,20 @@
+.notification {
+    width: 200px;
+    height: 35px;
+    padding: 10px 0;
+    background-color: aliceblue;
+    position: fixed;
+    top: 100px;
+    border-radius: 5px;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    opacity: 0;
+    transition: all .5s;
+    transition-timing-function: linear;
+}
+
+.notification.open {
+    opacity: 1;
+}
