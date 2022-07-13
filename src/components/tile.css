@@ -1,0 +1,25 @@
+.tile {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    border: 1px solid #3a3a3c;
+    transition: transform 1s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: white;
+    text-transform: uppercase;
+}
+
+.tile.animate {
+    transform: rotateY(360deg);
+}
+
+.green {
+    background-color: #538d4e;
+}
+
+.yellow {
+    background-color: #b59f3b
+}
