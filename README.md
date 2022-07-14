@@ -1,6 +1,8 @@
 # Wordle game inspired by NYtimes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live game here](https://etkhalil.github.io/wordle/)
+
+I can across the game on NYtimes website, and I decided to make a clone of it, built with React and tailwind.
 
 ![Wordle screenshot](/src/assets/screenshot.jpg)
 
